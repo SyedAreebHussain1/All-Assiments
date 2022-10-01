@@ -1,0 +1,5 @@
+-step 1 Demo Chat App
+-step 2 create html,Css and javascript file
+-step 3 setup firebase
+-step 4 includes firebase app & database
+-step 5 set Css style 

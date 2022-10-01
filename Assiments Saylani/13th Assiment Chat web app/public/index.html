@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>13th Assiment ChatApp web</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<script src="https://www.gstatic.com/firebasejs/7.21.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.21.1/firebase-database.js"></script>
+<script type="module">
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    const firebaseConfig = {
+        apiKey: "AIzaSyDz96Ey3kTfeQvzh8g3Dkh6JZkI5_B7fD0",
+        authDomain: "newchatapp-78ce2.firebaseapp.com",
+        databaseURL: "https://newchatapp-78ce2-default-rtdb.asia-southeast1.firebasedatabase.app",
+        projectId: "newchatapp-78ce2",
+        storageBucket: "newchatapp-78ce2.appspot.com",
+        messagingSenderId: "20937740122",
+        appId: "1:20937740122:web:8ee20afb0a5dbe82a22d63",
+        measurementId: "G-TF2H65EKMB"
+    };
+
+    // Firebase
+    firebase.initializeApp(firebaseConfig);
+</script>
+
+<body>
+    <div id="wrapper">
+        <div id="menu">
+            <p class="welcome">Welcome Chat App <br><br>
+
+            </p>
+            <!-- create a from to send message -->
+            <div id="chatbox">
+                <ul id="messages">
+
+                </ul>
+            </div>
+        </div>
+        <!-- create a from to send message -->
+        <form onsubmit="return sendMessage()">
+            <input type="text" id="message" class="usermsg" size="63" placeholder="Text Message" autocomplete="off" />
+            <input type="submit" name="" class="button">
+        </form>
+    </div>
+</body>
+<script src="app.js"></script>
+
+</html>

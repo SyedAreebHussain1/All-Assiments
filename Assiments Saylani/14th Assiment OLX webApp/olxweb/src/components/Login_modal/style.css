@@ -1,0 +1,105 @@
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  display: block;
+}
+
+.modal-main {
+  position: fixed;
+  background: white;
+  width: 370px;
+  height: 574px;
+  padding: 16px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 3px;
+  margin: 0 16px;
+}
+
+.modal-main header {
+  text-align: right;
+  height: 30px;
+}
+
+.modal-main header span {
+  cursor: pointer;
+  font-size: 28px;
+  font-weight: lighter;
+}
+
+.modal-main body .slider{
+  height: 220px;
+  text-align:center ;
+}
+
+.modal-main body .slider img{
+  width: 100px;
+}
+
+.modal-main body .slider p{
+  font-size: 16px;
+  font-weight: 500;
+  color: #002f34;
+}
+
+.modal-main body button {
+  margin: 4px 0;
+  /* display: inline-flex; */
+  width: 100%;
+  color: #002f34;
+  border-radius: 4px;
+  border: 2px solid #002f34;
+  padding: 0 10px;
+  font-size: 16px;
+  font-weight: 700;
+  height: 48px;
+  background-color: white;
+}
+
+.modal-main body button:hover {
+  border: 5px solid #002f34;
+}
+
+.modal-main footer {
+  position: absolute;
+  bottom: 0;
+  text-align:center;
+  padding: 15px 45px;
+}
+
+.modal-main footer p {
+  font-size: 12px;
+  font-weight: 400;
+  color: black;
+}
+
+.modal-main footer .p_link {
+  color: rgba(0, 47, 52, 0.64);
+  font-size: 12px;
+  font-weight: 400;
+  margin-top: 20px;
+}
+
+.modal-main footer .p_link a {
+  font-size: 12px;
+  font-weight: 400;
+  color: #3a77ff;
+  text-decoration: none;
+}
+.modal-main body span{
+  margin-right: 15px;
+  /* font-weight: lighter; */
+}
+
+.display-block {
+  display: block;
+}
+
+.display-none {
+  display: none;
+}

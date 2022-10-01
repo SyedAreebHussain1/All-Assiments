@@ -1,0 +1,17 @@
+label{
+    cursor: pointer;
+}
+input{
+    cursor: pointer;
+}
+.btn{
+    margin-left: 820px;
+    cursor: pointer;
+    width: 130px;
+    height: 40px;
+    font-weight: bold;
+    padding: 0px 23px;
+    font-size: 1em;
+    background-color: rgb(63, 63, 118);
+    color: #fff;
+}
